@@ -1,8 +1,36 @@
 .section1{
     background: #eeeeee;
+    height: 800px;
 }
 .section1-1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.title{
+    font-family: amatic_font;
+    font-size: 80px;
+}
+
+.btn3{
+    color: white;
+    background-color: #cf1311;
+    padding: 8px 18px;
+    border: #cf1311;
+    border-radius: 50px ;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn4{
+    color: rgb(15, 14, 14);
+    padding: 8px 18px;
+    border: #cf1311;
+    border-radius: 50px ;
+    font-size: 20px;
+}
+
+.pics{
+    margin-top: 100px;
 }
