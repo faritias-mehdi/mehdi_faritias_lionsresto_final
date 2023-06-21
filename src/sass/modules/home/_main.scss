@@ -1,36 +1,121 @@
-.section1{
+.section1 {
     background: #eeeeee;
     height: 800px;
 }
-.section1-1{
+
+.section1-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.title{
+.title {
     font-family: amatic_font;
     font-size: 80px;
 }
 
-.btn3{
+.btn3 {
     color: white;
     background-color: #cf1311;
     padding: 8px 18px;
     border: #cf1311;
-    border-radius: 50px ;
+    border-radius: 50px;
     font-size: 20px;
     padding: 10px;
 }
 
-.btn4{
+.btn4 {
     color: rgb(15, 14, 14);
     padding: 8px 18px;
     border: #cf1311;
-    border-radius: 50px ;
+    border-radius: 50px;
     font-size: 20px;
 }
 
-.pics{
+.pics {
     margin-top: 100px;
+}
+
+//? µµµµµµµµµµµµµµµµµµµµµµµµµµ   MEDIA QUERY   µµµµµµµµµµµµµµµµµµµµµµµµµµµµ
+
+@media (min-width : 320px) and (max-width : 426px) {
+    .section1-1 {
+        flex-direction: column-reverse;
+    }
+
+    .pics img {
+        width: 300px;
+        text-align: center;
+    }
+
+    .rave {
+        width: 100%;
+
+    }
+
+    .title {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .title1 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px
+    }
+
+
+    .section1 {
+        height: auto;
+    }
+
+    .buttons {
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+
+}
+
+//? µµµµµµµµµµµµµµµµµµµµµµµµµµ   MEDIA QUERY   µµµµµµµµµµµµµµµµµµµµµµµµµµµµ
+
+@media (min-width : 767px) and (max-width : 1025px) {
+    .section1-1 {
+        flex-direction: column-reverse;
+
+    }
+
+    .section1 {
+        height: auto;
+    }
+
+
+    .pics img {
+        width: 450px;
+        text-align: center;
+
+    }
+
+    .title {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px
+    }
+    .title1 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px
+    }
+
+    .buttons {
+        margin-top: 40px;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+
+
 }

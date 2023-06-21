@@ -10821,4 +10821,61 @@ textarea.form-control-lg {
   margin-top: 100px;
 }
 
+@media (min-width: 320px) and (max-width: 426px) {
+  .section1-1 {
+    flex-direction: column-reverse;
+  }
+  .pics img {
+    width: 300px;
+    text-align: center;
+  }
+  .rave {
+    width: 100%;
+  }
+  .title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .title1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .section1 {
+    height: auto;
+  }
+  .buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1025px) {
+  .section1-1 {
+    flex-direction: column-reverse;
+  }
+  .section1 {
+    height: auto;
+  }
+  .pics img {
+    width: 450px;
+    text-align: center;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .title1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .buttons {
+    margin-top: 40px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
