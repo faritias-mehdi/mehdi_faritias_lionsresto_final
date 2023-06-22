@@ -11093,6 +11093,7 @@ textarea.form-control-lg {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .btn5 {
@@ -11204,6 +11205,91 @@ textarea.form-control-lg {
   }
   .contenu {
     margin-left: 60px;
+  }
+}
+.img {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../../../public/img/stats-bg.jpg);
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.771);
+}
+
+.numb {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ligne-numb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  .numb {
+    height: 55%;
+  }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  .numb {
+    margin-top: 70px;
+  }
+}
+.riri {
+  color: gray;
+}
+
+.shaw {
+  border-bottom: grey solid;
+  list-style: none;
+}
+
+.nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+}
+
+.riri:hover {
+  color: #cf1311;
+}
+
+.img-plats {
+  width: 300px;
+}
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  .plat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .img-plats {
+    width: 300px;
+  }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  .plat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .img-plats {
+    width: 300px;
+  }
+  .nav {
+    gap: 10px;
+    font-size: 15px;
   }
 }
 
