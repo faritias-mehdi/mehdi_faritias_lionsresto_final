@@ -11292,5 +11292,61 @@ textarea.form-control-lg {
     font-size: 15px;
   }
 }
+.box6 {
+  margin-top: 140px;
+}
+
+.chefs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prochef {
+  background-color: #eeeeee;
+  height: 1100px;
+}
+
+.pics-chef {
+  margin-top: 60px;
+  width: 600px;
+}
+
+.texy {
+  color: gray;
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  .chefs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .pics-chef {
+    width: 400px;
+    text-align: center;
+  }
+}
+@media (min-width: 767px) and (max-width: 1025px) {
+  .chefs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .pics-chef {
+    width: 350px;
+    text-align: center;
+  }
+  .prochef {
+    background-color: #eeeeee;
+    height: auto;
+  }
+  .card3 {
+    display: block;
+    justify-content: start;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

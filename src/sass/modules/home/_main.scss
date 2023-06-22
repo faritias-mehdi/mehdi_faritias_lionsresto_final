@@ -607,7 +607,7 @@
 }
 
 
-//^^^^ µµµµµµµµµµµµµµµµµµµµµµµµµµ   SECTION 3   µµµµµµµµµµµµµµµµµµµµµµµµµµµµ
+//^^^^ µµµµµµµµµµµµµµµµµµµµµµµµµµ   SECTION 4   µµµµµµµµµµµµµµµµµµµµµµµµµµµµ
 
 .riri {
     color: gray;
@@ -635,7 +635,7 @@
     color: #cf1311;
 }
 
-.img-plats{
+.img-plats {
     width: 300px;
 
 }
@@ -649,9 +649,10 @@
         text-align: center;
         align-items: center;
     }
-    .img-plats{
+
+    .img-plats {
         width: 300px;
-    
+
     }
 }
 
@@ -665,15 +666,86 @@
         text-align: center;
         align-items: center;
     }
-    .img-plats{
+
+    .img-plats {
         width: 300px;
-    
-    }
-    .nav {
-       
-        gap: 10px;
-        font-size: 15px;
-    
+
     }
 
+    .nav {
+
+        gap: 10px;
+        font-size: 15px;
+
+    }
+
+}
+
+//^^^^ µµµµµµµµµµµµµµµµµµµµµµµµµµ   SECTION 5  µµµµµµµµµµµµµµµµµµµµµµµµµµµµ
+
+.box6{
+    margin-top: 140px;
+}
+.chefs{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.prochef{
+    background-color: #eeeeee;
+    height: 1100px;
+}
+
+.pics-chef {
+    margin-top: 60px;
+    width: 600px;
+}
+
+.texy{
+color: gray;
+}
+
+
+//? µµµµµµµµµµµµµµµµµµµµµµµµµµ   MEDIA QUERY   µµµµµµµµµµµµµµµµµµµµµµµµµµµµ
+
+@media (min-width : 320px) and (max-width : 426px) {
+
+    .chefs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+        .pics-chef {
+            width: 400px;
+            text-align: center;
+        }
+
+
+}
+
+//? µµµµµµµµµµµµµµµµµµµµµµµµµµ   MEDIA QUERY   µµµµµµµµµµµµµµµµµµµµµµµµµµµµ
+
+@media (min-width : 767px) and (max-width : 1025px) {
+
+    .chefs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+        .pics-chef {
+            width: 350px;
+            text-align: center;
+        }
+        .prochef{
+            background-color: #eeeeee;
+            height: auto;
+        }
+        .card3{
+            display: block;
+            justify-content: start;
+        }
 }
