@@ -11327,6 +11327,9 @@ textarea.form-control-lg {
     width: 400px;
     text-align: center;
   }
+  .prochef {
+    height: auto;
+  }
 }
 @media (min-width: 767px) and (max-width: 1025px) {
   .chefs {
@@ -11346,6 +11349,122 @@ textarea.form-control-lg {
   .card3 {
     display: block;
     justify-content: start;
+  }
+}
+.contact {
+  background-color: #eeeeee;
+  height: auto;
+}
+
+.box6-1 {
+  margin: 0 auto;
+}
+
+.pics-contact {
+  width: 600px;
+}
+
+.inputs {
+  font-size: 30px;
+  margin-top: 200px;
+}
+
+.inputsS {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.input1 {
+  border: rgba(128, 128, 128, 0.292) solid;
+  padding: 10px;
+}
+
+.input2 {
+  border: rgba(128, 128, 128, 0.292) solid;
+  margin-top: 60px;
+  width: 1120px;
+}
+
+.btn7-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn7 {
+  color: white;
+  background-color: #cf1311;
+  padding: 8px 18px;
+  border: #cf1311;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media (min-width: 767px) and (max-width: 1025px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputs {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .inputsS {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .input2 {
+    width: 500px;
+  }
+  .at-if {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  .contact {
+    background-color: #eeeeee;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pics-contact {
+    margin-top: 50px;
+    width: 400px;
+  }
+  .at-if {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputs {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .inputsS {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .input2 {
+    width: 300px;
   }
 }
 
