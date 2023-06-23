@@ -10,8 +10,9 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="scrole container-fluid">
             <a class="navbar-brand" href="#">LionsResto<span class="point">.</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -24,19 +25,19 @@
                         <a class="nav-link " aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#little">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MENU</a>
+                        <a class="nav-link" href="#libble">MENU</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">EVENTS</a>
+                        <a class="nav-link" href="#liddle">EVENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CHEFS</a>
+                        <a class="nav-link" href="#liggle">CHEFS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">GALLERY</a>
+                        <a class="nav-link" href="#lissle">GALLERY</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -63,6 +64,10 @@
         </div>
     </nav>
 
+    <span class="up">
+        <i class="fa-solid fa-circle-up fa-2xl" style="color: #cd1212;"></i>
+    </span>
+
     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
     <div class="section1">
@@ -75,8 +80,16 @@
                     Incidunt, voluptates. Mollitia, repellendus dolorum .</p>
                 <div class="buttons">
                     <button class="btn3">book a table</button>
-                    <button class="btn4"><i class="fa-sharp fa-regular fa-circle-play" style="color: #d91c1c;"></i>
+                    <button onclick="openPopup()" class="btn4"><i class="fa-sharp fa-regular fa-circle-play"
+                            style="color: #d91c1c;"></i>
                         watch video</button>
+                    <div class="popup-overlay" id="popupOverlay">
+                        <div class="popup-content">
+                            <button class="close-button" onclick="closePopup()">&times;</button>
+                            <iframe width="956" height="538" src="https://www.youtube.com/embed/LXb3EKWsInQ" title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -88,7 +101,7 @@
 
     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
-    <div>
+    <div id="little">
         <div class="box">
             <p class="parag">About us
             <p>
@@ -141,7 +154,14 @@
 
                 <div class="pics3">
                     <div class="pics4">
-                        <i class=" fa-sharp fa-solid fa-circle-play" style="color: #cf1311;"></i>
+                        <i class="  fa-sharp fa-solid fa-circle-play" style="color: #cf1311; "onclick="openPopup()" ></i>
+                        <div class="popup-overlay" id="popupOverlay">
+                            <div class="popup-content">
+                                <button class="close-button" onclick="closePopup()">&times;</button>
+                                <iframe width="956" height="538" src="https://www.youtube.com/embed/LXb3EKWsInQ" title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
 
                         <img src="./public/img/about-2.jpg" alt="">
 
@@ -261,7 +281,7 @@
 
     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
-    <div class="box">
+    <div class="box" id="libble">
         <p class="parag">About us
         <p>
         <h1 class="title3">check our <span class="title2"> lionsResto Menu </span> </h1>
@@ -575,7 +595,7 @@
 
     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
-    <div class="box6">
+    <div class="box6" id="liddle">
         <p class="parag"> events
         <p>
         <h1 class="title3">share <span class="title2"> Your Moments </span> In Our Restorante </h1>
@@ -586,7 +606,7 @@
 
     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
-    <div class="prochef">
+    <div class="prochef" id="liggle">
         <div class="box6">
             <p class="parag"> chef
             <p>
@@ -682,6 +702,92 @@
     </div>
 
 
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+
+
+        
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+    <section class="section-10" id="contact">
+    
+        <div class="box6-1">
+            <p class="parag"> GALLERY
+            <p>
+            <h1 class="title3"> Need Help <span class="title2"> Contacts Us</span></h1>
+        </div>
+        <div class="xmaps"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.361465429854!2d-74.0083263845951!3d40.710058579332234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sma!4v1687437230478!5m2!1sen!2sma"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div>
+                    <div class="adress-parent">
+                        <div class="kldm">
+                            <div class="b-gicone"><i class="fa-regular fa-map" style="color: white;"></i></div>
+                            <div>
+                                <h4>Our Address</h4>
+                                <p>A 108 Adam street, New York,NY 535022</p>
+                            </div>
+        
+                        </div>
+                        <div class="kldm">
+                            <div class="b-gicone"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></div>
+                            <div>
+                                <h4>Email us</h4>
+                                <p>dakhamme474@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="adress-parent">
+                        <div class="kldm">
+                            <div class="b-gicone"><i class="fa-solid fa-phone" style="color: #ffffff;"></i></div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 2641 6541 5787 45</p>
+                            </div>
+        
+                        </div>
+                        <div class="kldm">
+                            <div class="b-gicone"><i class="fa-regular fa-clock" style="color: #ffffff;"></i></div>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p><b>Mon-sat:</b> 11AM-23PM;<b>Sunday:</b> closed</p>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </section>
+        
+            <!-- -----------------------------------!end section 10 ------------------------------- -->
+        <!-- -----------------------------------*start section 11 ------------------------------- -->
+            <section class="section-11">
+                <div class="contact-uss">
+                    <div class="name-email"><input type="text" placeholder="   Your Name"></div>
+                    <div class="name-email"><input type="text" placeholder="   Your Email"></div>
+                </div>
+                <div class="subject"><input type="text" placeholder="   Subject"></div>
+                <div class="txt-msg"><textarea name="" id="" cols="30" rows="10" placeholder="  message"></textarea></div>
+                <div class="book-a-table"><a href="">Send Message</a></div>
+        
+            </section>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -707,6 +813,7 @@
 
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./public/js/app.js"></script>
 </body>
 
 </html>
